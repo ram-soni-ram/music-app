@@ -1,0 +1,82 @@
+.song-list-container {
+	padding: 0px 10px;
+	margin-top: 30px;
+	width: 97%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.song-list-container::-webkit-scrollbar {
+	width: 6px;
+}
+
+.song-list-container::-webkit-scrollbar-track {
+	background: #545454c0;
+	border-radius: 4px;
+}
+
+.song-list-container::-webkit-scrollbar-thumb {
+	background: #11ff7d;
+	border-radius: 4px;
+}
+
+.song-list-container::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.song {
+	width: 100%;
+	background: #545454c0;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 0px 0px 15px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.song-list-container .song img {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin: 5px 10px 5px 5px;
+}
+
+.song .title {
+	color: #eeeeee;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+}
+
+.opraters {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	padding: 10px;
+	gap: 15px;
+}
+
+.opraters button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+}
+
+.pause-icon,
+.play-icon,
+.download-icon {
+	font-size: 23px;
+	fill: #11ff7d;
+}
+
+.active {
+	background: #2b2b2bc0;
+	border-left: 5px solid #11ff7d;
+}

@@ -1,0 +1,32 @@
+.header {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.header div {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.header div .music-icon {
+	font-size: 30px;
+	fill: #11ff7d;
+}
+
+.header div .heading {
+	font-size: 25px;
+	font-weight: 600;
+	color: #eeeeee;
+	text-shadow: 0px 0px 5px #11ff7d;
+}
+
+.header .playlist-icon {
+	fill: #eeeeee;
+	font-size: 35px;
+	cursor: pointer;
+}
