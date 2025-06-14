@@ -100,7 +100,6 @@ function App() {
 		return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
 	};
 
-
 	return (
 		<Context.Provider
 			value={{
